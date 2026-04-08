@@ -1,0 +1,138 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demo ---
+[INFO] skip non existing resourceDirectory C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ demo ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.hotel.booking.controller.HotelControllerTest
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! -- in com.hotel.booking.controller.HotelControllerTest
+[ERROR] com.hotel.booking.controller.HotelControllerTest.testGetAllHotels -- Time elapsed: 0.041 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+	at com.hotel.booking.controller.HotelControllerTest.<init>(HotelControllerTest.java:7)
+
+[ERROR] com.hotel.booking.controller.HotelControllerTest.testAddHotelSuccess -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+	at com.hotel.booking.controller.HotelControllerTest.<init>(HotelControllerTest.java:7)
+
+[ERROR] com.hotel.booking.controller.HotelControllerTest.testGetHotelById -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+	at com.hotel.booking.controller.HotelControllerTest.<init>(HotelControllerTest.java:7)
+
+[INFO] Running com.hotel.booking.service.BookingServiceTest
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.605 s -- in com.hotel.booking.service.BookingServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   HotelControllerTest.<init>:7  Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+[ERROR]   HotelControllerTest.<init>:7  Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+[ERROR]   HotelControllerTest.<init>:7  Unresolved compilation problems: 
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.autoconfigure.web cannot be resolved
+	The import org.springframework.boot.test.mock.mockito cannot be resolved
+	WebMvcTest cannot be resolved to a type
+	AutoConfigureMockMvc cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+	MockBean cannot be resolved to a type
+
+[INFO] 
+[ERROR] Tests run: 6, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.930 s
+[INFO] Finished at: 2026-04-08T13:49:25+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.5:test (default-test) on project demo: 
+[ERROR] 
+[ERROR] See C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,71 @@
+﻿
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-04-08T13:12:03.630+05:30  INFO 39528 --- [booking] [           main] com.hotel.booking.BookingApplication     : Starting BookingApplication using Java 21.0.1 with PID 39528 (C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\target\classes started by HOME in C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend)
+2026-04-08T13:12:03.634+05:30  INFO 39528 --- [booking] [           main] com.hotel.booking.BookingApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-08T13:12:05.188+05:30  INFO 39528 --- [booking] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-08T13:12:05.337+05:30  INFO 39528 --- [booking] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 5 JPA repository interfaces.
+2026-04-08T13:12:06.503+05:30  INFO 39528 --- [booking] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-08T13:12:06.528+05:30  INFO 39528 --- [booking] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-08T13:12:06.529+05:30  INFO 39528 --- [booking] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-08T13:12:06.621+05:30  INFO 39528 --- [booking] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2816 ms
+2026-04-08T13:12:06.899+05:30  INFO 39528 --- [booking] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-08T13:12:06.981+05:30  INFO 39528 --- [booking] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-08T13:12:07.876+05:30  INFO 39528 --- [booking] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-08T13:12:07.932+05:30  INFO 39528 --- [booking] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-08T13:12:09.906+05:30  INFO 39528 --- [booking] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cb49121
+2026-04-08T13:12:09.909+05:30  INFO 39528 --- [booking] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-08T13:12:10.051+05:30  INFO 39528 --- [booking] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/hotel_booking?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.3
+	Default catalog/schema: hotel_booking/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-08T13:12:11.924+05:30  INFO 39528 --- [booking] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-08T13:12:12.125+05:30  INFO 39528 --- [booking] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08T13:12:12.272+05:30  INFO 39528 --- [booking] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-08T13:12:13.035+05:30  INFO 39528 --- [booking] [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-04-08T13:12:13.038+05:30  WARN 39528 --- [booking] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-04-08T13:12:13.976+05:30  WARN 39528 --- [booking] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController' defined in file [C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\target\classes\com\hotel\booking\controller\BookingController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bookingService' defined in file [C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\target\classes\com\hotel\booking\service\BookingService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'emailService' defined in file [C:\Users\HOME\Downloads\hotel (1)\hotel\HotelBookingSystem-main\backend\target\classes\com\hotel\booking\service\EmailService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-04-08T13:12:13.979+05:30  INFO 39528 --- [booking] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-08T13:12:13.982+05:30  INFO 39528 --- [booking] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-08T13:12:13.992+05:30  INFO 39528 --- [booking] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-08T13:12:13.996+05:30  INFO 39528 --- [booking] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-08T13:12:14.006+05:30  INFO 39528 --- [booking] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-08T13:12:14.036+05:30 ERROR 39528 --- [booking] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hotel.booking.service.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.0.4:run (default-cli) on project demo: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
